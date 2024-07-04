@@ -1,0 +1,156 @@
+
+.text-area *.text {
+    -fx-text-alignment: center;
+}
+
+.text-area {
+    -fx-font-weight: bold;
+    -fx-text-fill: rgb(205.0, 156.0, 205.0);
+    -fx-font-style: italic;
+    -fx-font-size: 14.0;
+}
+
+.button {
+    -fx-font-size: 18.0;
+    -fx-text-fill: #F0FFFF;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-text-alignment: center;
+}
+
+.tekst {
+    -fx-font-size: 12.0;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+     -fx-text-fill: white;
+}
+    
+.btnIzadji {
+     -fx-background-color: linear-gradient(rgb(225.0, 206.0, 225.0) 0.0%, rgb(0.0, 0.0, 0.0) 100.0%),
+    	linear-gradient(rgb(97.0, 107.0, 22.0), rgb(9.0, 1.0, 2.0)),
+    	linear-gradient(rgb(205.0, 156.0, 205.0) 20.0%, rgb(0.0, 0.0, 0.0) 100.0%);
+    -fx-background-insets: 0.0, 1.0, 2.0;
+    -fx-background-radius: 7.0, 8.0, 7.0;
+    -fx-text-fill: white;
+}
+
+.button:hover {	
+     -fx-background-color: linear-gradient(rgb(97.0, 86.0, 23.0) 0.0%, rgb(7.0, 6.0, 3.0) 100.0%),
+    	linear-gradient(rgb(30.0, 144.0, 255.0), rgb(97.0, 106.0, 23.0)),
+    	linear-gradient(rgb(110.0, 254.0, 215.0) 20.0%, rgb(40.0, 40.0, 20.0) 100.0%);
+    -fx-background-insets: 0.0, 1.0, 2.0;
+    -fx-background-radius: 7.0, 8.0, 7.0;
+    -fx-text-fill: rgb(10.0, 34.0, 15.0);
+}
+
+.kontejner {
+     -fx-background-color: linear-gradient(rgb(97.0, 107.0, 22.0) 60.0%, rgb(0.0, 0.0, 0.0) 40.0%),
+    	linear-gradient(rgb(97.0, 107.0, 22.0), rgb(0.0, 2.0, 2.0)),
+    	linear-gradient(rgb(97.0, 107.0, 22.0) 20.0%, rgb(0.0, 0.0, 0.0) 100.0%);
+    -fx-background-insets: 0.0, 1.0, 3.0;
+
+    -fx-text-fill: #ADD8E6;  
+}
+  
+.titled-pane > .title {
+	-fx-background-color: PowderBlue;
+	-fx-background-insets: 0.0;
+	-fx-background-radius: 0.0;
+}
+
+.table-column {
+	-fx-alignment: center;
+	-fx-font-weight: bold;
+  	-fx-font-style: italic;
+  	-fx-text-fill: green;
+}
+
+.table-row-cell {
+  	-fx-control-inner-background: lightcyan;
+ }
+
+.table-row-cell:odd {
+	-fx-alignment: center;
+    -fx-padding: 0.0em;
+}
+
+.table-row-cell:even {
+	-fx-alignment: center;
+    -fx-padding: 0.0em;
+}
+
+.table-view .column-header .label {
+	-fx-background-color: PaleTurquoise;
+    -fx-text-fill: #2b89ae;
+}
+
+.table-alarm {
+	-fx-background-color: #d5f6f6;	
+}
+
+.labela-statistika {
+	-fx-alignment: center;
+	-fx-font-weight: bold;
+  	-fx-font-style: italic;
+  	-fx-text-fill: azure;
+  	-fx-font-size: 18.0;
+  	-fx-padding: 16.0px 0.0 0.0 8.0px;
+}
+
+.titled-pane > .title {
+	-fx-background-color: PowderBlue;
+	-fx-background-insets: 0.0;
+	-fx-background-radius: 0.0;
+}
+
+.text-area .content {
+	-fx-alignment: center;
+	-fx-padding: 10px;
+	-fx-wrap-text: true;
+    -fx-background-color: linear-gradient(rgb(97.0, 86.0, 23.0) 0.0%, rgb(7.0, 6.0, 3.0) 100.0%),
+    	linear-gradient(rgb(97.0, 86.0, 23.0), rgb(97.0, 106.0, 23.0)),
+    	linear-gradient(rgb(97.0, 107.0, 22.0) 20.0%, rgb(0.0, 0.0, 0.0) 100.0%);
+    -fx-background-insets: 0, 1, 1;
+    -fx-background-radius: 7, 8, 7;    
+ 	-fx-font-family: Consolas;
+  	-fx-highlight-fill: #00ff00;
+  	-fx-highlight-text-fill: #000000;
+  	-fx-text-fill: #00ff00;
+}
+  
+.text-area .scroll-bar:vertical {
+    -fx-pref-width: 1;
+    -fx-opacity: 0;
+}
+
+.text-area .scroll-bar:horizontal {
+    -fx-pref-height: 1;
+    -fx-opacity: 0;
+}
+
+.list-cell {
+	-fx-alignment: center;
+	-fx-font-weight: bold;
+  	-fx-font-style: italic;
+  	-fx-cell-size: 30px;
+}  
+
+.list-cell:even {
+    -fx-background-color: #556B2F;
+   	-fx-text-fill: rgb(205.0, 156.0, 205.0);
+}  
+
+.list-cell:odd {
+    -fx-background-color: rgb(97.0, 107.0, 22.0);
+   	-fx-text-fill: rgb(205.0, 156.0, 205.0);
+}  
+
+.list-cell:filled:selected {
+    -fx-background-color: #8FBC8F;
+   	-fx-text-fill: white;
+}
+
+.list-cell:filled:hover {
+	-fx-background-color: #808000;
+   	-fx-text-fill: white;
+}

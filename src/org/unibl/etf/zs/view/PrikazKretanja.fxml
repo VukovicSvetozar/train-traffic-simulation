@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<GridPane alignment="CENTER" prefHeight="700.0" prefWidth="1000.0" styleClass="kontejner" stylesheets="@../style/PrikazKretanja.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.zs.controller.PrikazKretanja">
+  <columnConstraints>
+    <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" prefWidth="400.0" />
+      <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" prefWidth="600.0" />
+  </columnConstraints>
+  <rowConstraints>
+    <RowConstraints valignment="CENTER" vgrow="SOMETIMES" />
+  </rowConstraints>
+   <children>
+      <GridPane>
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" prefWidth="400.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints prefHeight="50.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints prefHeight="500.0" valignment="CENTER" vgrow="SOMETIMES" />
+            <RowConstraints prefHeight="150.0" valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="Lista kompozicija" textAlignment="CENTER" textFill="#b993b9">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="120.0" top="30.0" />
+                     </GridPane.margin>
+                     <VBox.margin>
+                        <Insets left="30.0" top="10.0" />
+                     </VBox.margin>
+                  </Label>
+               </children>
+               <GridPane.margin>
+                  <Insets />
+               </GridPane.margin>
+               <padding>
+                  <Insets top="15.0" />
+               </padding>
+            </VBox>
+            <VBox alignment="CENTER" GridPane.rowIndex="1">
+               <children>
+                  <ScrollPane hbarPolicy="NEVER" maxHeight="450.0" maxWidth="320.0" minHeight="450.0" minWidth="320.0" prefHeight="450.0" prefWidth="320.0" vbarPolicy="NEVER" GridPane.rowIndex="1">
+                     <content>
+                        <ListView fx:id="lvListaImenaKompozicija" maxHeight="450.0" maxWidth="320.0" minHeight="450.0" minWidth="320.0" prefHeight="450.0" prefWidth="320.0" />
+                     </content>
+                     <GridPane.margin>
+                        <Insets bottom="15.0" left="15.0" right="15.0" top="15.0" />
+                     </GridPane.margin>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </ScrollPane>
+               </children>
+               <GridPane.margin>
+                  <Insets left="30.0" top="20.0" />
+               </GridPane.margin>
+            </VBox>
+            <HBox alignment="CENTER" spacing="50.0" GridPane.rowIndex="2">
+               <children>
+                  <Button fx:id="btnIzlaz" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#izadji" prefHeight="80.0" prefWidth="120.0" styleClass="btnIzadji" text="Izlaz">
+                     <graphic>
+                        <ImageView fitHeight="70.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true" />
+                     </graphic>
+                  </Button>
+               </children>
+               <GridPane.margin>
+                  <Insets left="30.0" />
+               </GridPane.margin>
+            </HBox>
+         </children>
+      </GridPane>
+      <GridPane alignment="CENTER" GridPane.columnIndex="1">
+        <columnConstraints>
+          <ColumnConstraints halignment="CENTER" hgrow="SOMETIMES" prefWidth="600.0" />
+        </columnConstraints>
+        <rowConstraints>
+            <RowConstraints prefHeight="50.0" valignment="CENTER" vgrow="SOMETIMES" />
+          <RowConstraints prefHeight="650.0" valignment="CENTER" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox alignment="CENTER">
+               <children>
+                  <Label text="Istorija kretanja" textFill="#b993b9">
+                     <font>
+                        <Font name="System Bold Italic" size="20.0" />
+                     </font>
+                     <padding>
+                        <Insets top="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <padding>
+                  <Insets top="15.0" />
+               </padding>
+            </VBox>
+            <VBox fx:id="vbIstorijaKretanjaKontejner" alignment="CENTER" GridPane.rowIndex="1">
+               <children>
+                  <TextArea fx:id="taIstorijaKretanja" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="500.0">
+                     <font>
+                        <Font size="14.0" />
+                     </font></TextArea>
+               </children></VBox>
+         </children>
+      </GridPane>
+   </children>
+</GridPane>

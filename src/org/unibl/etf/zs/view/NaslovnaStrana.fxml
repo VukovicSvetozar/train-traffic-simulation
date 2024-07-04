@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.image.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.zs.controller.NaslovnaStrana">
+   <children>
+   
+
+	  <Button fx:id="naslovnoDugme" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" onAction="#pokreniAplikaciju" prefHeight="410.0" prefWidth="610.0" styleClass="kontejner">
+         <graphic>
+            <ImageView fx:id="naslovnaSlikaDugme" fitHeight="420.0" fitWidth="620.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../../../../../../resources/images/Logo.png" />
+               </image></ImageView>
+         </graphic></Button>    
+   </children>
+   <stylesheets>
+      <URL value="@../style/NaslovnaStrana.css" />
+      <URL value="@../style/NaslovnaStrana.css" />
+   </stylesheets>
+</AnchorPane>

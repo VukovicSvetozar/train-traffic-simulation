@@ -1,0 +1,22 @@
+
+Dozvoljene vrijednosti za unos lokomotiva (proizvoljan broj unosa):
+	LokomotivaManevarska
+	LokomotivaUniverzalna
+	LokomotivaTeretna
+	LokomotivaPutnicka
+
+Dozvoljene vrijednosti za unos vagona (proizvoljan broj unosa):
+	VagonZaPosebneNamjene
+	VagonTeretni
+	VagonPutnickiRestoran
+	VagonPutnickiSaLezajima
+	VagonPutnickiSaSjedistima
+	VagonPutnickiZaSpavanje
+
+Osnovni podaci (tacno jedan unos):
+	obrazac:
+		O-brzina-tipPogona-polaziste-odrediste
+	dozvoljene vrijednosti:
+		karakter:'O' - numericka_vrijednost - [DIZELSKI, ELEKTRICNI, PARNI] - [A-G]{1} - [A-E]{1}
+	primjer:
+		O-101-PARNI-D-C

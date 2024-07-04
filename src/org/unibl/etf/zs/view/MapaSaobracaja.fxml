@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.effect.*?>
+<?import java.net.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.input.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="kontejner" prefHeight="700.0" prefWidth="1000.0" stylesheets="@../style/MapaSaobracaja.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.unibl.etf.zs.controller.MapaSaobracaja">
+   <children>
+      <GridPane alignment="CENTER">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" prefWidth="250.0" />
+            <ColumnConstraints hgrow="SOMETIMES" prefWidth="750.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints prefHeight="700.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox alignment="TOP_RIGHT">
+               <children>
+                  <GridPane alignment="CENTER">
+                     <children>
+                        <VBox alignment="CENTER">
+                           <children>
+                              <Text fill="#bf5959" rotate="-30.0" stroke="#2fb1bc" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="2.0" text="Željeznički" textAlignment="CENTER">
+                                 <font>
+                                    <Font name="Bookman Old Style Bold Italic" size="20.0" />
+                                 </font>
+                                 <VBox.margin>
+                                    <Insets left="10.0" />
+                                 </VBox.margin>
+                              </Text>
+                              <Text fill="#bf5959" rotate="-30.0" stroke="#2fb1bc" strokeLineCap="BUTT" strokeType="OUTSIDE" strokeWidth="2.0" text="saobraćaj" textAlignment="CENTER">
+                                 <VBox.margin>
+                                    <Insets left="40.0" top="5.0" />
+                                 </VBox.margin>
+                                 <font>
+                                    <Font name="Bookman Old Style Bold Italic" size="20.0" />
+                                 </font>
+                              </Text>
+                           </children>
+                        </VBox>
+                        <VBox alignment="CENTER" spacing="50.0" GridPane.rowIndex="1">
+                           <GridPane.margin>
+                              <Insets />
+                           </GridPane.margin>
+                           <children>
+                              <Button fx:id="btnOmoguciKretanje" mnemonicParsing="false" onAction="#omoguciKretanje" prefHeight="80.0" prefWidth="110.0" styleClass="btnPrikazi" text="Omogući kretanje" textAlignment="CENTER" wrapText="true">
+                                 <font>
+                                    <Font size="14.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="btnPrikazKretanja" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#prikaziKretanje" prefHeight="80.0" prefWidth="110.0" styleClass="btnPrikazi" text="  Prikaži kretanje" textAlignment="CENTER" wrapText="true">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                              <Button fx:id="btnZavrsetakSimulacije" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#zavrsiSimulaciju" prefHeight="80.0" prefWidth="110.0" styleClass="btnIzadji" text="Završi simulaciju" textAlignment="CENTER" wrapText="true">
+                                 <font>
+                                    <Font size="18.0" />
+                                 </font>
+                              </Button>
+                           </children>
+                           <padding>
+                              <Insets left="30.0" />
+                           </padding>
+                        </VBox>
+                     </children>
+                     <columnConstraints>
+                        <ColumnConstraints hgrow="SOMETIMES" prefWidth="250.0" />
+                     </columnConstraints>
+                     <rowConstraints>
+                        <RowConstraints prefHeight="250.0" vgrow="SOMETIMES" />
+                        <RowConstraints prefHeight="400.0" vgrow="SOMETIMES" />
+                     </rowConstraints>
+                  </GridPane>
+               </children>
+               <padding>
+                  <Insets bottom="25.0" top="25.0" />
+               </padding>
+            </VBox>
+            <VBox alignment="CENTER" GridPane.columnIndex="1">
+               <children>
+                  <HBox fx:id="kontejnerTeritorije" alignment="CENTER" prefHeight="660.0" prefWidth="660.0" style="-fx-background-color: SkyBlue;">
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin></HBox>
+               </children>
+               <padding>
+                  <Insets bottom="20.0" left="30.0" right="60.0" top="20.0" />
+               </padding>
+            </VBox>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

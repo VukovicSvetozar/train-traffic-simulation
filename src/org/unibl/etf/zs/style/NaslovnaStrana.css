@@ -1,0 +1,8 @@
+ 
+.kontejner {
+    -fx-background-color: linear-gradient(rgb(30, 144, 255) 0%, rgb(30, 144, 255) 100%),
+    	linear-gradient(rgb(30, 144, 255), rgb(235, 206, 235)),
+    	linear-gradient(rgb(235, 206, 235) 0%, rgb(135, 206, 235) 100%);
+    -fx-text-fill: #ADD8E6; 
+ }
+  
