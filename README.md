@@ -95,4 +95,4 @@ Poseban prozor unutar aplikacije koji omogućava učitavanje sačuvanih serijali
 Da bi JavaFX moduli bili ispravno učitani, unutar vašeg razvojnog okruženja (npr. IntelliJ IDEA, Eclipse ili VS Code) potrebno je u konfiguraciju pokretanja (Run Configuration / VM Options) dodati sljedeće VM argumente sa putanjom do vašeg lokalnog JavaFX SDK-a:
 
 ```json
-"vmArgs": "--module-path /putanja/do/javafx-sdk-17/lib --add-modules javafx.controls,javafx.fxml"
+--module-path /putanja/do/javafx-sdk-17/lib --add-modules javafx.controls,javafx.fxml
