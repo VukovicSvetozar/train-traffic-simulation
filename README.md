@@ -76,7 +76,7 @@ Poseban prozor unutar aplikacije koji omogućava učitavanje sačuvanih serijali
 
 ---
 
-## 💻 Tehnološki Stog i Alati
+## Tehnologije i Alati
 
 * **Jezik:** Java 17 (OpenJDK)
 * **GUI Biblioteka:** JavaFX 17
@@ -85,14 +85,14 @@ Poseban prozor unutar aplikacije koji omogućava učitavanje sačuvanih serijali
 
 ---
 
-## 🚀 Kako pokrenuti projekat lokalno
+## Kako pokrenuti projekat lokalno
 
 ### Preduslovi
 * Instaliran **Java 17 JDK**.
 * Preuzet **JavaFX SDK 17**.
 
-### Konfiguracija VM argumenata u VS Code
-Da bi JavaFX moduli bili ispravno učitani, u vašem `.vscode/launch.json` fajlu dodajte putanju do vašeg lokalnog JavaFX SDK-a:
+### Konfiguracija VM argumenata u razvojnom okruženju (IDE)
+Da bi JavaFX moduli bili ispravno učitani, unutar vašeg razvojnog okruženja (npr. IntelliJ IDEA, Eclipse ili VS Code) potrebno je u konfiguraciju pokretanja (Run Configuration / VM Options) dodati sljedeće VM argumente sa putanjom do vašeg lokalnog JavaFX SDK-a:
 
 ```json
 "vmArgs": "--module-path /putanja/do/javafx-sdk-17/lib --add-modules javafx.controls,javafx.fxml"
