@@ -76,7 +76,7 @@ Poseban prozor unutar aplikacije koji omogućava učitavanje sačuvanih serijali
 
 ---
 
-## Tehnologije i Alati
+## 💻 Tehnologije i Alati
 
 * **Jezik:** Java 17 (OpenJDK)
 * **GUI Biblioteka:** JavaFX 17
@@ -85,7 +85,7 @@ Poseban prozor unutar aplikacije koji omogućava učitavanje sačuvanih serijali
 
 ---
 
-## Kako pokrenuti projekat lokalno
+## 🚀 Kako pokrenuti projekat lokalno
 
 ### Preduslovi
 * Instaliran **Java 17 JDK**.
