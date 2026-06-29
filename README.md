@@ -1,8 +1,14 @@
 # Train Traffic Simulation
 
-**Train Traffic Simulation** je napredna desktop aplikacija za simulaciju, upravljanje i koordinaciju željezničkog i drumskog saobraćaja u realnom vremenu.
-Aplikacija demonstrira praktičnu primjenu naprednih koncepata objektno-orijentisanog programiranja, konkurentnog programiranja (višenitnosti), mehanizama sinhronizacije niti, dinamičkog učitavanja konfiguracije i serijalizacije objekata u Javi.
+**Train Traffic Simulation** je napredna desktop aplikacija za simulaciju, upravljanje i koordinaciju željezničkog i drumskog saobraćaja u realnom vremenu. Projekat je razvijen u sklopu predmeta **Programski jezici 2** na **Elektrotehničkom fakultetu**.
 
+Aplikacija demonstrira praktičnu primjenu naprednih koncepata objektno-orijentisanog programiranja, konkurentnog programiranja (višenitnosti), mehanizama sinhronizacije niti, dinamičkog učitavanja konfiguracije i serijalizacije objekata u Javi.
+<div align="center">
+  <img src="assets/1.png" width="300" height="250" alt="Simulacija u radu - detalj 1">
+  <img src="assets/3.png" width="300" height="250" alt="Simulacija u radu - detalj 2">
+</div>
+
+<br>
 ---
 
 ## 🛠️ Ključne Arhitektonske Funkcionalnosti
@@ -31,25 +37,31 @@ Aplikacija demonstrira praktičnu primjenu naprednih koncepata objektno-orijenti
 
 Aplikacija posjeduje bogat grafički interfejs izgrađen pomoću **JavaFX** biblioteke. Ispod su prikazani ključni moduli i ekrani simulacije u radu:
 
-### 1. Mapa mreže i praćenje aktivnih niti i sinhronizacija saobraćaja
+### 1. Glavni prozor simulacije i mapa mreže
 Vizuelni prikaz simulacije sa matricom pruga, stanica i drumskog saobraćaja u realnom vremenu.
+
+<div align="center">
+  <img src="assets/2.png" width="700" alt="Glavni prozor simulacije">
+</div>
+
+### 2. Praćenje aktivnih niti i sinhronizacija saobraćaja
 Detaljan grafički prikaz koordinacije vozova, upravljanja prugama i regulacije pružnih prelaza tokom trajanja simulacije.
 
 <div align="center">
-  <img src="assets/3.png" width="800" alt="Simulacija u radu - detalj 1">
+  <img src="assets/4.png" width="700" alt="Simulacija u radu - detalj 1">
 </div>
 
 <br>
 
 <div align="center">
-  <img src="assets/5.png" width="800" alt="Simulacija u radu - detalj 2">
+  <img src="assets/6.png" width="700" alt="Simulacija u radu - detalj 2">
 </div>
 
-### 2. Deserijalizacija i istorija kretanja (Telemetrija)
+### 3. Deserijalizacija i istorija kretanja (Telemetrija)
 Poseban prozor unutar aplikacije koji omogućava učitavanje sačuvanih serijalizovanih datoteka i detaljan pregled istorije kretanja za svaku pojedinačnu kompoziciju.
 
 <div align="center">
-  <img src="assets/6.png" width="800" alt="Istorija kretanja">
+  <img src="assets/7.png" width="700" alt="Istorija kretanja">
 </div>
 
 ---
