@@ -1,11 +1,19 @@
 # Train Traffic Simulation
 
-**Train Traffic Simulation** je napredna desktop aplikacija za simulaciju, upravljanje i koordinaciju željezničkog i drumskog saobraćaja u realnom vremenu. Projekat je razvijen u sklopu predmeta **Programski jezici 2** na **Elektrotehničkom fakultetu**.
+**Train Traffic Simulation** je napredna desktop aplikacija za simulaciju, upravljanje i koordinaciju željezničkog i drumskog saobraćaja u realnom vremenu.
 
 Aplikacija demonstrira praktičnu primjenu naprednih koncepata objektno-orijentisanog programiranja, konkurentnog programiranja (višenitnosti), mehanizama sinhronizacije niti, dinamičkog učitavanja konfiguracije i serijalizacije objekata u Javi.
 <div align="center">
-  <img src="assets/1.png" width="300" height="250" alt="Simulacija u radu - detalj 1">
-  <img src="assets/3.png" width="300" height="250" alt="Simulacija u radu - detalj 2">
+  <table>
+    <tr>
+      <td width="50%" align="center">
+        <img src="assets/1.png" width="100%" alt="Simulacija u radu - detalj 1">
+      </td>
+      <td width="50%" align="center">
+        <img src="assets/3.png" width="100%" alt="Simulacija u radu - detalj 2">
+      </td>
+    </tr>
+  </table>
 </div>
 
 <br>
