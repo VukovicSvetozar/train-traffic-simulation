@@ -30,18 +30,15 @@ Aplikacija posjeduje bogat grafički interfejs izgrađen pomoću **JavaFX** bibl
 Vizuelni prikaz simulacije sa matricom pruga, stanica i drumskog saobraćaja u realnom vremenu.
 Detaljan grafički prikaz koordinacije vozova, upravljanja prugama i regulacije pružnih prelaza tokom trajanja simulacije.
 
-<div>
+<div align="center">
   <img src="assets/3.png" width="600" alt="Simulacija u radu - detalj 1">
-</div>
-
-<div>
-  <img src="assets/5.png" width="600" alt="Simulacija u radu - detalj 2">
+  <img src="assets/5.png" width="600" alt="Simulacija u radu - detalj 2">  
 </div>
 
 ### 2. Deserijalizacija i istorija kretanja (Telemetrija)
 Poseban prozor unutar aplikacije koji omogućava učitavanje sačuvanih serijalizovanih datoteka i detaljan pregled istorije kretanja za svaku pojedinačnu kompoziciju.
 
-<div>
+<div align="center">
   <img src="assets/6.png" width="600" alt="Istorija kretanja">
 </div>
 
