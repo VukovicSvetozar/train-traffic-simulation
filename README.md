@@ -34,7 +34,7 @@ Detaljan grafički prikaz koordinacije vozova, upravljanja prugama i regulacije 
 
 ### 2. Deserijalizacija i istorija kretanja (Telemetrija)
 Poseban prozor unutar aplikacije koji omogućava učitavanje sačuvanih serijalizovanih datoteka i detaljan pregled istorije kretanja za svaku pojedinačnu kompoziciju.
-![Istorija kretanja](assets/6.png)
+<img src="assets/6.png" width="600" alt="Istorija kretanja">
 
 ---
 
