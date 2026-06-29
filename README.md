@@ -1,4 +1,15 @@
-# Train Traffic Simulation
+<br>
+<br>
+<div align="center">
+  <h1>Train Traffic Simulation</h1> 
+</div>
+<br>
+<br>
+<br>
+
+<div style="page-break-before: always;"></div>
+
+
 
 **Train Traffic Simulation** je napredna desktop aplikacija za simulaciju, upravljanje i koordinaciju željezničkog i drumskog saobraćaja u realnom vremenu.
 
