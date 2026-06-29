@@ -26,16 +26,13 @@ Aplikacija demonstrira praktičnu primjenu naprednih koncepata objektno-orijenti
 
 Aplikacija posjeduje bogat grafički interfejs izgrađen pomoću **JavaFX** biblioteke. Ispod su prikazani ključni moduli i ekrani simulacije u radu:
 
-### 1. Glavni prozor simulacije i mapa mreže
+### 1. Praćenje aktivnih niti i sinhronizacija saobraćaja
 Vizuelni prikaz simulacije sa matricom pruga, stanica i drumskog saobraćaja u realnom vremenu.
-![Glavni prozor simulacije](assets/1.png)
-
-### 2. Praćenje aktivnih niti i sinhronizacija saobraćaja
 Detaljan grafički prikaz koordinacije vozova, upravljanja prugama i regulacije pružnih prelaza tokom trajanja simulacije.
-![Simulacija u radu - detalj 1](assets/3.jpg)
-![Simulacija u radu - detalj 2](assets/5.jpg)
+![Simulacija u radu - detalj 1](assets/3.png)
+![Simulacija u radu - detalj 2](assets/5.png)
 
-### 3. Deserijalizacija i istorija kretanja (Telemetrija)
+### 2. Deserijalizacija i istorija kretanja (Telemetrija)
 Poseban prozor unutar aplikacije koji omogućava učitavanje sačuvanih serijalizovanih datoteka i detaljan pregled istorije kretanja za svaku pojedinačnu kompoziciju.
 ![Istorija kretanja](assets/6.png)
 
