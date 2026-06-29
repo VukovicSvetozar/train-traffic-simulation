@@ -1,0 +1,10 @@
+# Izbačeni lokalni folderi sa klasama i logovima
+bin/
+log/
+*.log
+
+# Izbačena podešavanja editora (VS Code i Eclipse)
+.vscode/
+.settings/
+.classpath
+.project
