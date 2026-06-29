@@ -4,19 +4,10 @@
 
 Aplikacija demonstrira praktičnu primjenu naprednih koncepata objektno-orijentisanog programiranja, konkurentnog programiranja (višenitnosti), mehanizama sinhronizacije niti, dinamičkog učitavanja konfiguracije i serijalizacije objekata u Javi.
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%" align="center">
-        <img src="assets/1.png" width="100%" alt="Simulacija u radu - detalj 1">
-      </td>
-      <td width="50%" align="center">
-        <img src="assets/3.png" width="100%" alt="Simulacija u radu - detalj 2">
-      </td>
-    </tr>
-  </table>
+  <img src="assets/1.png" width="43%" alt="Simulacija u radu - detalj 1">&nbsp;
+  <img src="assets/3.png" width="41%" alt="Simulacija u radu - detalj 2">
 </div>
 
-<br>
 ---
 
 ## 🛠️ Ključne Arhitektonske Funkcionalnosti
